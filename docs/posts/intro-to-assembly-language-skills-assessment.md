@@ -120,7 +120,7 @@ _start:
 
     mov rcx, 14                     ; Set the Loop Counter to 14
 
-printDecoded:                        ; Start of new procedure printDecode
+printDecode:                        ; Start of new procedure printDecode
 
     pop rdx                         ; Pop the current stack pointer to rdx
     xor rdx, rbx                    ; Decode rdx using the key in rbx
