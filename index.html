@@ -1,0 +1,776 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="category/writeups/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Arenwald's Blog</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-my-blog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Arenwald&#39;s Blog" class="md-header__button md-logo" aria-label="Arenwald's Blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Arenwald's Blog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Welcome to my blog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Arenwald&#39;s Blog" class="md-nav__button md-logo" aria-label="Arenwald's Blog" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Arenwald's Blog
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    
+      
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to my blog
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/writeups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Writeups
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="welcome-to-my-blog">Welcome to my blog</h1>
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-04-30 00:00:00">April 30, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="category/writeups/" class="md-meta__link">Writeups</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              6 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="intro-to-assembly-language-skills-assessment"><a class="toclink" href="2024/04/30/intro-to-assembly-language---skills-assessment/">Intro to Assembly language - Skills Assessment</a></h2>
+<style>
+b {color: #0398fc;word-wrap:break-word;}
+r {color: #eb6666;word-wrap:break-word;}
+g {color: #83a35c;word-wrap:break-word;}
+purple {color: #a49cda;word-wrap:break-word;}
+</style>
+
+<p>This post is about the end of module assessment given for an introduction to assembly language course. Those are the solutions I came up with, don't mind sending me suggestions for improvement since i'm new to this. Also, this post is mostly for me and to keep track of my progress over time.</p>
+<h3 id="task-1"><a class="toclink" href="2024/04/30/intro-to-assembly-language---skills-assessment/#task-1">Task 1</a></h3>
+<p>For the first task, we're given a binary called <b>loaded_shellcode</b>. We have to dissassemble it, modify the assembly code to decode the shellcode loaded in it, then execute it to get the flag. The decoding key is stored in the register <b>rbx</b> (Callee Saved)</p>
+<p>To dissassemble the <b>.text</b> section :  </p>
+<p><code>objdump -M intel --no-show-raw-insn --no-addresses -d loaded_shellcode</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="err">&lt;</span><span class="nf">_start</span><span class="o">&gt;</span><span class="p">:</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0xa284ee5c7cde4bd7</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x935add110510849a</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x10b29a9dab697500</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x200ce3eb0d96459a</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0xe64c30e305108462</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x69cd355c7c3e0c51</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x65659a2584a185d6</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x69ff00506c6c5000</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x3127e434aa505681</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x6af2a5571e69ff48</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x6d179aaff20709e6</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x9ae3f152315bf1c9</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x373ab4bb0900179a</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x69751244059aa2a3</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">        </span><span class="nf">movabs</span><span class="w"> </span><span class="nb">rbx</span><span class="p">,</span><span class="mh">0x2144d2144d2144d2</span>
+</code></pre></div>
+<p>The encoded shellcode is loaded by initializing the register <b>rax</b> with a value, then pushing it into the stack. This process is repeated <b>14</b> times. At the end, the decoding key is set into the Callee Saved register <b>rbx</b>.</p>
+<p>The quickest/easiest approach would be to <b>pop</b> the values from the stack, <b>xor</b> them with the key in <b>rbx</b> and loop these steps 14 times. After that, load the program in a debugger and take note of the decoded value at each step. I wanted to make it just a little more fun by making a procedure that will do these steps, but will also print the entire decoded shellcode in my terminal, ready to be executed as is.</p>
+<p>The approach I came up with is:
+- <b>pop</b> the current stack pointer <b>rsp</b> into a register not used (<b>rdx</b> in my case)<br />
+- <b>xor</b> it with the value in <b>rbx</b>
+- print the value in <b>rdx</b> with <b>libc</b> functions <b>printf</b> and <b>fflush</b>
+- loop these steps 14 times</p>
+<p>The format specifier used for <b>printf</b>: <br />
+<code>outFormat db  "%016llx", 0x00</code></p>
+<ul>
+<li><b>0</b> : to pad the output with zeroes intead of spaces if minimum width is not met</li>
+<li><b>16</b> : field width specifier of 16 characters, will be padded to the left with zeros.</li>
+<li><b>ll</b> : length modifier long long int.</li>
+<li><b>x</b> : lowercase hexadecimal integer</li>
+<li><b>0x00</b> is the string terminator in <b>printf</b></li>
+</ul>
+<p>This is necessary because for example, one of the values is: 14831ff40b70148 instead of <b>0</b>14831ff40b70148 which would break the shellcode if I didn't pad the extra <b>0</b>.</p>
+<p>Also, to be able to print all the values on the same line, I need to call <b>fflush</b> to flush all streams or else, I'd have to print on a new line instead.</p>
+<p>Once this is all put together : </p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">global</span><span class="w"> </span><span class="nv">_start</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">extern</span><span class="w"> </span><span class="nv">printf</span><span class="p">,</span><span class="w"> </span><span class="nv">fflush</span><span class="w">               </span><span class="c1">; Import external libc functions printf and fflush</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="k">section</span><span class="w"> </span><span class="nv">.data</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="nf">outFormat</span><span class="w"> </span><span class="nv">db</span><span class="w">  </span><span class="s">&quot;%016llx&quot;</span><span class="p">,</span><span class="w"> </span><span class="mh">0x00</span><span class="w">   </span><span class="c1">; Set the format specifier for printf</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="k">section</span><span class="w"> </span><span class="nv">.text</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="nl">_start:</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0xa284ee5c7cde4bd7</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x935add110510849a</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x10b29a9dab697500</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x200ce3eb0d96459a</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0xe64c30e305108462</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x69cd355c7c3e0c51</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x65659a2584a185d6</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x69ff00506c6c5000</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x3127e434aa505681</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x6af2a5571e69ff48</span>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x6d179aaff20709e6</span>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x9ae3f152315bf1c9</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x373ab4bb0900179a</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="mh">0x69751244059aa2a3</span>
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="w">    </span><span class="nf">push</span><span class="w">   </span><span class="nb">rax</span>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rbx</span><span class="p">,</span><span class="mh">0x2144d2144d2144d2</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a>
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rcx</span><span class="p">,</span><span class="w"> </span><span class="mi">14</span><span class="w">                     </span><span class="c1">; Set the Loop Counter to 14</span>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a>
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a><span class="nl">printDecode:</span><span class="w">                        </span><span class="c1">; Start of new procedure printDecode</span>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a>
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">    </span><span class="nf">pop</span><span class="w"> </span><span class="nb">rdx</span><span class="w">                         </span><span class="c1">; Pop the current stack pointer to rdx</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="w">    </span><span class="nf">xor</span><span class="w"> </span><span class="nb">rdx</span><span class="p">,</span><span class="w"> </span><span class="nb">rbx</span><span class="w">                    </span><span class="c1">; Decode rdx using the key in rbx</span>
+<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a>
+<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="w">    </span><span class="nf">push</span><span class="w"> </span><span class="nb">rcx</span><span class="w">                        </span><span class="c1">; Push registers to stack before calling the printf function</span>
+<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a><span class="w">    </span><span class="nf">push</span><span class="w"> </span><span class="nb">rdx</span><span class="w">                        </span>
+<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="w">    </span><span class="nf">push</span><span class="w"> </span><span class="nb">rbx</span>
+<a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a>
+<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="nv">outFormat</span><span class="w">              </span><span class="c1">; Set the first printf argument (format specifier)</span>
+<a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rsi</span><span class="p">,</span><span class="w"> </span><span class="nb">rdx</span><span class="w">                    </span><span class="c1">; Set the second printf argument (value to print)</span>
+<a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a><span class="w">    </span><span class="nf">call</span><span class="w"> </span><span class="nv">printf</span><span class="w">                     </span><span class="c1">; printf(outFormat, rdx)</span>
+<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a>
+<a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a><span class="w">    </span><span class="nf">xor</span><span class="w">  </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="nb">rdi</span><span class="w">                   </span><span class="c1">; Setting rdi to zero</span>
+<a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a><span class="w">    </span><span class="nf">call</span><span class="w"> </span><span class="nv">fflush</span><span class="w">                     </span><span class="c1">; Flush all streams</span>
+<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a>
+<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a><span class="w">    </span><span class="nf">pop</span><span class="w"> </span><span class="nb">rbx</span><span class="w">                         </span><span class="c1">; Restore registers from stack</span>
+<a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a><span class="w">    </span><span class="nf">pop</span><span class="w"> </span><span class="nb">rdx</span>
+<a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a><span class="w">    </span><span class="nf">pop</span><span class="w"> </span><span class="nb">rcx</span>
+<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a>
+<a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a><span class="w">    </span><span class="nf">loop</span><span class="w"> </span><span class="nv">printDecode</span><span class="w">                </span><span class="c1">; Loop this procedure until rcx reaches 0</span>
+<a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a>
+<a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a><span class="nl">exit:</span><span class="w">                               </span><span class="c1">; Exit procedure</span>
+<a id="__codelineno-1-64" name="__codelineno-1-64" href="#__codelineno-1-64"></a><span class="w">    </span><span class="nf">xor</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="w"> </span><span class="nb">rax</span>
+<a id="__codelineno-1-65" name="__codelineno-1-65" href="#__codelineno-1-65"></a><span class="w">    </span><span class="nf">add</span><span class="w"> </span><span class="nb">al</span><span class="p">,</span><span class="w"> </span><span class="mi">60</span>
+<a id="__codelineno-1-66" name="__codelineno-1-66" href="#__codelineno-1-66"></a><span class="w">    </span><span class="nf">xor</span><span class="w"> </span><span class="nv">dil</span><span class="p">,</span><span class="w"> </span><span class="nv">dil</span>
+<a id="__codelineno-1-67" name="__codelineno-1-67" href="#__codelineno-1-67"></a><span class="w">    </span><span class="nf">syscall</span>
+</code></pre></div>
+Assemble the code, do dynamic linking with <b>libc</b> and execute it using : <br />
+<code>nasm -f elf64 flag.s &amp;&amp;  ld flag.o -o flag -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2 &amp;&amp; ./flag</code></p>
+<p>Result : 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>nasm<span class="w"> </span>-f<span class="w"> </span>elf64<span class="w"> </span>flag.s<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w">  </span>ld<span class="w"> </span>flag.o<span class="w"> </span>-o<span class="w"> </span>flag<span class="w"> </span>-lc<span class="w"> </span>--dynamic-linker<span class="w"> </span>/lib64/ld-linux-x86-64.so.2<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>./flag
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>4831c05048bbe671167e66af44215348bba723467c7ab51b4c5348bbbf264d344bb677435348bb9a10633620e771125348bbd244214d14d244214831c980c1044889e748311f4883c708e2f74831c0b0014831ff40b7014831f64889e64831d2b21e0f054831c04883c03c4831ff0f05
+</code></pre></div></p>
+<p>To execute the shellcode, I'll use the <b>pwntools</b> library in <b>python</b>:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span> <span class="nn">pwn</span> <span class="kn">import</span> <span class="o">*</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">context</span><span class="p">(</span><span class="n">os</span><span class="o">=</span><span class="s2">&quot;linux&quot;</span><span class="p">,</span> <span class="n">arch</span><span class="o">=</span><span class="s2">&quot;amd64&quot;</span><span class="p">,</span> <span class="n">log_level</span><span class="o">=</span><span class="s2">&quot;error&quot;</span><span class="p">)</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">run_shellcode</span><span class="p">(</span><span class="n">unhex</span><span class="p">(</span><span class="s1">&#39;SHELLCODE&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">interactive</span><span class="p">()</span>
+</code></pre></div></p>
+<p>I can then execute the shellcode, which will print the flag :</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>python<span class="w"> </span>loader.py<span class="w"> </span><span class="s1">&#39;4831c05048bbe671167e66af44215348bba723467c7ab51b4c5348bbbf264d344bb677435348bb9a10633620e771125348bbd244214d14d244214831c980c1044889e748311f4883c708e2f74831c0b0014831ff40b7014831f64889e64831d2b21e0f054831c04883c03c4831ff0f05&#39;</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>HTB<span class="o">{</span>4553mbly_d3bugg1ng_m4573r<span class="o">}</span>$
+</code></pre></div>
+<h3 id="task-2"><a class="toclink" href="2024/04/30/intro-to-assembly-language---skills-assessment/#task-2">Task 2</a></h3>
+<p>For the second task, in a binary exploitation exercise, we get to the point where we have to run our shellcode. A buffer space of 50 bytes is available. The exercice consist of optimizing the given assembly code to make it <b>shellcode-ready</b> and <b>under 50 bytes</b>.</p>
+<p>Before starting, a quick reminder about shellcoding requirements : </p>
+<ol>
+<li>Does not contain variables</li>
+<li>Does not refer to direct memory addresses</li>
+<li>Does not contain any NULL bytes <code>00</code></li>
+</ol>
+<p>The provided assembly code :</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">global</span><span class="w"> </span><span class="nv">_start</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="k">section</span><span class="w"> </span><span class="nv">.text</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="nl">_start:</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">    </span><span class="c1">; push &#39;./flg.txt\x00&#39;</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">    </span><span class="nf">push</span><span class="w"> </span><span class="mi">0</span><span class="w">              </span><span class="c1">; push NULL string terminator</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;/flg.txt&#39;</span><span class="w"> </span><span class="c1">; rest of file name</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">    </span><span class="nf">push</span><span class="w"> </span><span class="nb">rdi</span><span class="w">            </span><span class="c1">; push to stack </span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">    </span><span class="c1">; open(&#39;rsp&#39;, &#39;O_RDONLY&#39;)</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="w">          </span><span class="c1">; open syscall number</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="nb">rsp</span><span class="w">        </span><span class="c1">; move pointer to filename</span>
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rsi</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="w">          </span><span class="c1">; set O_RDONLY flag</span>
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="w">    </span><span class="nf">syscall</span>
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a>
+<a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a><span class="w">    </span><span class="c1">; read file</span>
+<a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="w">    </span><span class="nf">lea</span><span class="w"> </span><span class="nb">rsi</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="nb">rdi</span><span class="p">]</span><span class="w">      </span><span class="c1">; pointer to opened file</span>
+<a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="nb">rax</span><span class="w">        </span><span class="c1">; set fd to rax from open syscall</span>
+<a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="w">          </span><span class="c1">; read syscall number</span>
+<a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdx</span><span class="p">,</span><span class="w"> </span><span class="mi">24</span><span class="w">         </span><span class="c1">; size to read</span>
+<a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a><span class="w">    </span><span class="nf">syscall</span>
+<a id="__codelineno-5-22" name="__codelineno-5-22" href="#__codelineno-5-22"></a>
+<a id="__codelineno-5-23" name="__codelineno-5-23" href="#__codelineno-5-23"></a><span class="w">    </span><span class="c1">; write output</span>
+<a id="__codelineno-5-24" name="__codelineno-5-24" href="#__codelineno-5-24"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w">          </span><span class="c1">; write syscall</span>
+<a id="__codelineno-5-25" name="__codelineno-5-25" href="#__codelineno-5-25"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w">          </span><span class="c1">; set fd to stdout</span>
+<a id="__codelineno-5-26" name="__codelineno-5-26" href="#__codelineno-5-26"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdx</span><span class="p">,</span><span class="w"> </span><span class="mi">24</span><span class="w">         </span><span class="c1">; size to read</span>
+<a id="__codelineno-5-27" name="__codelineno-5-27" href="#__codelineno-5-27"></a><span class="w">    </span><span class="nf">syscall</span>
+<a id="__codelineno-5-28" name="__codelineno-5-28" href="#__codelineno-5-28"></a>
+<a id="__codelineno-5-29" name="__codelineno-5-29" href="#__codelineno-5-29"></a><span class="w">    </span><span class="c1">; exit</span>
+<a id="__codelineno-5-30" name="__codelineno-5-30" href="#__codelineno-5-30"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rax</span><span class="p">,</span><span class="w"> </span><span class="mi">60</span>
+<a id="__codelineno-5-31" name="__codelineno-5-31" href="#__codelineno-5-31"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span>
+<a id="__codelineno-5-32" name="__codelineno-5-32" href="#__codelineno-5-32"></a><span class="w">    </span><span class="nf">syscall</span>
+</code></pre></div>
+<p>Using this python code, we can generate our shellcode from the binary : </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="ch">#!/usr/bin/python3</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="kn">import</span> <span class="nn">sys</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="kn">from</span> <span class="nn">pwn</span> <span class="kn">import</span> <span class="o">*</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="n">context</span><span class="p">(</span><span class="n">os</span><span class="o">=</span><span class="s2">&quot;linux&quot;</span><span class="p">,</span> <span class="n">arch</span><span class="o">=</span><span class="s2">&quot;amd64&quot;</span><span class="p">,</span> <span class="n">log_level</span><span class="o">=</span><span class="s2">&quot;error&quot;</span><span class="p">)</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="n">file</span> <span class="o">=</span> <span class="n">ELF</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="n">shellcode</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">section</span><span class="p">(</span><span class="s2">&quot;.text&quot;</span><span class="p">)</span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="nb">print</span><span class="p">(</span><span class="n">shellcode</span><span class="o">.</span><span class="n">hex</span><span class="p">())</span>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> bytes - Found NULL byte&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">shellcode</span><span class="p">))</span> <span class="k">if</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">shellcode</span> <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span> <span class="k">else</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> bytes - No NULL bytes&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">shellcode</span><span class="p">))</span>
+</code></pre></div>
+<p>This is the current result : 
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>python<span class="w"> </span>shellcoder.py<span class="w"> </span>flag
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>6a0048bf2f666c672e74787457b8020000004889e7be000000000f05488d374889c7b800000000ba180000000f05b801000000bf01000000ba180000000f05b83c000000bf000000000f05
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="m">75</span><span class="w"> </span>bytes<span class="w"> </span>-<span class="w"> </span>Found<span class="w"> </span>NULL<span class="w"> </span>byte
+</code></pre></div></p>
+<p>Using pwn disasm we can see the instructions from the shellcode : </p>
+<pre><code>
+pwn disasm '6a0048bf2f666c672e74787457b8020000004889e7be000000000f05488d374889c7b800000000ba180000000f05b801000000bf01000000ba180000000f05b83c000000bf000000000f05' -c 'amd64'
+   0:    6a <r>00</r>                    <g>push</g> <purple>0x0</purple>
+   2:    48 bf 2f 66 6c 67 2e 74 78 74    <g>movabs</g> <r>rdi</r>,  <purple>0x7478742e676c662f</purple>
+   c:    57                       <g>push</g> <r>rdi</r>
+   d:    b8 02 <r>00 00 00</r>           <g>mov</g> <r>eax</r>,  <purple>0x2</purple>
+  12:    48 89 e7                 <g>mov</g> <r>rdi</r>,  <r>rsp</r>
+  15:    be <r>00 00 00 00</r>           <g>mov</g> <r>esi</r>,  <purple>0x0</purple>
+  1a:    0f 05                    <g>syscall</g>
+  1c:    48 8d 37                 <g>lea</g> <r>rsi</r>,  <r>[rdi]</r>
+  1f:    48 89 c7                 <g>mov</g> <r>rdi</r>,  <r>rax</r>
+  22:    b8 <r>00 00 00 00</r>           <g>mov</g> <r>eax</r>,  <purple>0x0</purple>
+  27:    ba 18 <r>00 00 00</r>           <g>mov</g> <r>edx</r>,  <purple>0x18</purple>
+  2c:    0f 05                    <g>syscall</g>
+  2e:    b8 01 <r>00 00 00</r>           <g>mov</g> <r>eax</r>,  <purple>0x1</purple>
+  33:    bf 01 <r>00 00 00</r>           <g>mov</g> <r>edi</r>,  <purple>0x1</purple>
+  38:    ba 18 <r>00 00 00</r>           <g>mov</g> <r>edx</r>,  <purple>0x18</purple>
+  3d:    0f 05                    <g>syscall</g>
+  3f:    b8 3c <r>00 00 00</r>           <g>mov</g> <r>eax</r>,  <purple>0x3c</purple>
+  44:    bf 00 <r>00 00 00</r>           <g>mov</g> <r>edi</r>,  <purple>0x0</purple>
+  49:    0f 05                    <g>syscall</g>
+</code></pre>
+
+<p>As expected, we're exceeding 50 bytes and the shellcode contains NULL bytes (each <r>00</r> represents a null byte that needs to be removed).</p>
+<p>Here's the list of changes made to respect the requirements:
+- Line 1: replace <code>push 0</code> by <code>xor rsi, rsi</code> followed by <code>push rsi</code>. This will still push 0 to the stack and will replace <code>mov rsi, 0</code> from line 13.
+- Line 11: <code>mov al, 2</code> to use the 1-byte register instead of the 8-byte <b>rax</b>.
+- Line 18: replace <code>mov rdi, rax</code> by <code>mov edi, eax' to use 4-byte size registers.
+- Line 19: replace</code>mov rax, 0<code>by</code>xor al, al<code>to set the Syscall number to 0.
+- Line 21: replace</code>mov rdx, 24<code>by</code>mov dl, 24<code>to use a 2-byte register, per needed.
+- Line 24-25: replace</code>mov rax, 1<code>and</code>mov rdi, 1<code>by</code>mov al, 1<code>and</code>mov dil, 1<code>to use 1-byte registers.
+- Line 26: remove</code>mov rdx, 24` since the value is alredy set previously.</p>
+<p>This is the final code:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="k">global</span><span class="w"> </span><span class="nv">_start</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="k">section</span><span class="w"> </span><span class="nv">.text</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="nl">_start:</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">    </span><span class="c1">; push &#39;./flg.txt\x00&#39;</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="w">    </span><span class="nf">xor</span><span class="w"> </span><span class="nb">rsi</span><span class="p">,</span><span class="w"> </span><span class="nb">rsi</span><span class="w">            </span><span class="c1">; set rsi to 0</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="w">    </span><span class="nf">push</span><span class="w"> </span><span class="nb">rsi</span><span class="w">                </span><span class="c1">; push NULL string terminator</span>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;/flg.txt&#39;</span><span class="w">     </span><span class="c1">; set the file name</span>
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="w">    </span><span class="nf">push</span><span class="w"> </span><span class="nb">rdi</span><span class="w">                </span><span class="c1">; push file name to stack</span>
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a><span class="w">    </span><span class="c1">; open(&#39;rsp&#39;, &#39;O_RDONLY&#39;)</span>
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="w">    </span><span class="c1">; rsi &#39;0_RDONLY&#39; is already set to 0 from previous instructions</span>
+<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">al</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="w">               </span><span class="c1">; open syscall number</span>
+<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">rdi</span><span class="p">,</span><span class="w"> </span><span class="nb">rsp</span><span class="w">            </span><span class="c1">; move pointer to filename</span>
+<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a><span class="w">    </span><span class="nf">syscall</span><span class="w">                 </span>
+<a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>
+<a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a><span class="w">    </span><span class="c1">; read file</span>
+<a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a><span class="w">    </span><span class="nf">lea</span><span class="w"> </span><span class="nb">rsi</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="nb">rdi</span><span class="p">]</span><span class="w">          </span><span class="c1">; pointer to opened file</span>
+<a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">edi</span><span class="p">,</span><span class="w"> </span><span class="nb">eax</span><span class="w">            </span><span class="c1">; set fd to rax from open syscall</span>
+<a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a><span class="w">    </span><span class="nf">xor</span><span class="w"> </span><span class="nb">al</span><span class="p">,</span><span class="w"> </span><span class="nb">al</span><span class="w">              </span><span class="c1">; read syscall number</span>
+<a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">dl</span><span class="p">,</span><span class="w"> </span><span class="mi">24</span><span class="w">              </span><span class="c1">; size to read</span>
+<a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a><span class="w">    </span><span class="nf">syscall</span>
+<a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a>
+<a id="__codelineno-8-24" name="__codelineno-8-24" href="#__codelineno-8-24"></a><span class="w">    </span><span class="c1">; write output</span>
+<a id="__codelineno-8-25" name="__codelineno-8-25" href="#__codelineno-8-25"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nb">al</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w">               </span><span class="c1">; write syscall</span>
+<a id="__codelineno-8-26" name="__codelineno-8-26" href="#__codelineno-8-26"></a><span class="w">    </span><span class="nf">mov</span><span class="w"> </span><span class="nv">dil</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="w">              </span><span class="c1">; set fd to stdout</span>
+<a id="__codelineno-8-27" name="__codelineno-8-27" href="#__codelineno-8-27"></a><span class="w">    </span><span class="nf">syscall</span>
+</code></pre></div></p>
+<p>If I generate the shellcode and check for null bytes this is the result :
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>python<span class="w"> </span>shellcoder.py<span class="w"> </span>flag
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>4831f65648bf2f666c672e74787457b0024889e70f05488d3789c730c0b2180f05b00140b7010f05
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="m">40</span><span class="w"> </span>bytes<span class="w"> </span>-<span class="w"> </span>No<span class="w"> </span>NULL<span class="w"> </span>bytes
+</code></pre></div></p>
+<p>Finally, if I send the shellcode to the server the flag is returned :
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>$<span class="w"> </span>nc<span class="w"> </span><span class="m">94</span>.237.63.201<span class="w"> </span><span class="m">58840</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>4831f65648bf2f666c672e74787457b0024889e70f05488d3789c730c0b2180f05b00140b7010f05
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>HTB<span class="o">{</span>5h3llc0d1ng_g3n1u5<span class="o">}</span>
+</code></pre></div></p>
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  
+</nav>
+        
+      
+    </div>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.sections"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
