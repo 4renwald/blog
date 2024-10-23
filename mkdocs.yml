@@ -1,0 +1,27 @@
+site_name: Arenwald's Blog
+theme:
+    name: material
+    features:
+    - navigation.sections
+    palette:
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      accent: amber
+
+plugins:
+  - blog:
+      blog_dir: . 
+  - search
+  - tags
+nav:
+  - index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 
+
+extra_css:
+  - stylesheets/extra.css
